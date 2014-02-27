@@ -4,7 +4,7 @@ body {
 }
 
 #flyer {
-	background: #000 url(../img/flyer.jpg) no-repeat center top/contain;
+	background: #000 url(../img/flyer.jpg) no-repeat center top;
 	width: 600px;
 	height: 900px;
 	display: block;
@@ -26,6 +26,9 @@ body {
 
 @media all and (max-width: 600px) {
 	#flyer {
+		background-size: cover;
 		width: 100%;
+		padding-bottom: 150%;
+		height: 0;
 	}
 }
