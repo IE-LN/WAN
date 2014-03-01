@@ -4,15 +4,16 @@ body {
 }
 
 #flyer {
-	background: #000 url(../img/flyer.jpg) no-repeat center top;
+	background: #000 url(../img/flyer-buy.jpg) no-repeat center top;
 	width: 600px;
-	height: 900px;
+	height: 969px;
 	display: block;
 	position: relative;
 	margin: 0 auto;
 }
 
-#logo {
+#logo,
+#buy {
 	font-size: 0px;
 	position: absolute;
 	width: 25%;
@@ -24,11 +25,27 @@ body {
 	   		transform:	translate(-50%, 0);
 }
 
+#buy {
+	top: 53%;
+	width: 32%;
+	height: 5%;
+}
+
 @media all and (max-width: 600px) {
 	#flyer {
 		background-size: cover;
 		width: 100%;
-		padding-bottom: 150%;
+		padding-bottom: 162%;
 		height: 0;
+	}
+	
+	#buy {
+		width: 100%;
+		left: 0;
+		bottom: 0;
+		height: 50%;
+		-webkit-transfor m:  none;
+	       -moz-transform: 	none;
+	   		    transform:	none;
 	}
 }
