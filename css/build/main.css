@@ -43,6 +43,7 @@ body {
 		width: 100%;
 		left: 0;
 		bottom: 0;
+		top: auto;
 		height: 50%;
 		-webkit-transfor m:  none;
 	       -moz-transform: 	none;
