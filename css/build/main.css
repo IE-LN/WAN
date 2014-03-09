@@ -1,6 +1,8 @@
 body {
 	margin: 0;
 	background-color: #000;
+	font-family: Arial, sans-serif;
+	text-align: center;
 }
 
 #flyer {
@@ -29,6 +31,34 @@ body {
 	top: 53%;
 	width: 32%;
 	height: 5%;
+}
+
+#rules-link {
+	font-size: 12px;
+	color: #fff;
+	text-decoration: none;
+	padding: 0 0 15px 0;
+	left: 50%;
+	-webkit-transform:  translate(-50%, 0);
+	   -moz-transform: 	translate(-50%, 0);
+	   		transform:	translate(-50%, 0);
+}
+
+#rules {
+	display: none;
+}
+
+.pico-content {
+	color: #fff !important;
+	background-color: #000 !important;
+	width: 80%;
+	height: 70%;
+	overflow-y: scroll;
+	text-align: left;
+}
+
+.pico-content h2 {
+	margin-top: 0;
 }
 
 @media all and (max-width: 600px) {
