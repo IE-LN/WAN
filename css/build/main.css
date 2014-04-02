@@ -6,7 +6,7 @@ body {
 }
 
 #flyer {
-	background: #000 url(../img/flyer-buy.jpg) no-repeat center top;
+	background: #000 url(../img/flyer-sold-out.jpg) no-repeat center top;
 	width: 600px;
 	height: 969px;
 	display: block;
